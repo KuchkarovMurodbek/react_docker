@@ -1,12 +1,15 @@
-import AdminLayout from "./components/Layout/AdminLayout"
-
+// import AdminLayout from "./components/Layout/AdminLayout"
+import './firebase'
 
 function App() {
-  
+
+
 
   return (
     <>
-     <AdminLayout/>
+     {/* <AdminLayout/> */}
+     <h1>hello</h1>
+     
     </>
   )
 }
