@@ -1,11 +1,12 @@
 import  { ReactNode } from 'react'
 
 interface IButton{
-    children:ReactNode
+    children:ReactNode,
+    icon:ReactNode
 }
 
-export function IconButton({children}:IButton) {
+export function IconButton({children,icon}:IButton) {
   return (
-    <button>{children}</button>
+      <button><span>{icon}</span>{children}</button>
   )
 }

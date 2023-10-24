@@ -1,7 +1,7 @@
 import { Input } from "../Input/Input"
 // import { Sidebar } from "../Sidebar"
 
-function AdminLayout() {
+function Layout() {
   return (
     <div className="flex">
       {/* <Sidebar/> */}
@@ -12,4 +12,4 @@ function AdminLayout() {
   )
 }
 
-export default AdminLayout
+export default Layout
