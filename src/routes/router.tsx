@@ -8,6 +8,11 @@ const router = createBrowserRouter([
     path: "/",
     element:  <Home/>,
     errorElement: <ErrorPage />,
+    // loader: () => ({ message: "Hello Data Router!" }),
+    // Component() {
+    //   let data = useLoaderData() as { message: string };
+    //   return <h1>{data.message}</h1>;
+    // },
   },
   {
     path:'/about',
